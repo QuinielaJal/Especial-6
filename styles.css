@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+.quiniela{
+    margin: auto;
+    background-image: url("https://scontent.fgdl9-1.fna.fbcdn.net/v/t1.15752-9/131507287_227606885429193_3602792475874882573_n.png?_nc_cat=107&ccb=2&_nc_sid=ae9488&_nc_eui2=AeFUIDoN60bw6k4gZsMI5UT-TtUO0HsNPKFO1Q7Qew08oRVZGy2WLTGLM5x5TQc_9c3a3llnfY1RXib13Em6-6vc&_nc_ohc=l1DnHiJ39Y0AX8HAJyz&_nc_ht=scontent.fgdl9-1.fna&oh=ca632374fc4d5b23eb1e15ede628da87&oe=5FFE9E9E");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 400px;
+    height: 375px;
+    border-radius: 20px;
+
+}
+
+
+.botonera{
+    margin-top: 5%;
+}
+
+.aux{
+    background-color: rgba(165, 42, 42, 0);
+    width: 100%;
+    height: 12%;
+}
+.aux h3{
+    width: 9%;
+    height: 60%;
+    padding-top: 5px;
+    margin-left: 4px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.288);
+}
+.aux h3 ion-icon{
+    display: table-row-group;
+}
+
+
+.quiniela span{
+    width: 8.6%;
+    display: inline-flex;
+    margin-left: 7.5%;
+    
+}
+
+#bolsa{
+    color:white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#_{
+    background-color: rgba(128, 255, 0, 0);
+    width: 22.3%;
+    height: 100%;
+    display: inline-flex;
+}
+
+@media (max-width: 400px) {
+    .botonera{
+        margin-top: 5vh;
+    }
+    #bolsa{
+        font-size: 5vw;
+    }
+  }
+
+
+.partido{
+    display: flex;
+    height: 5.4%;
+    width: 100%;
+}
+
+body{
+    max-width: 400px;
+    margin: auto;
+    background-color: rgb(6,12,37);
+    background-image: url("https://scontent.fgdl9-1.fna.fbcdn.net/v/t1.15752-9/131344685_391886295476941_7477046446757769815_n.png?_nc_cat=109&ccb=2&_nc_sid=ae9488&_nc_eui2=AeEbeEvwqxAp5Ij_dnyC4tlxQLBOtJBRmmxAsE60kFGabOpBgqVORoMLBv0E1M1YpbeJGOBOvPzj1Bdw6ZulWlvq&_nc_ohc=KPh7A-Dsm70AX_hnG2l&_nc_ht=scontent.fgdl9-1.fna&oh=0716c53ce42e095ae5d4fc76dec87fd8&oe=5FFC2F78");
+    background-repeat: repeat-y;
+    background-position: top;
+}
+
+  
+
+h1{
+    background-color: teal;
+    text-align: center;
+    padding: 14px;
+    color: whitesmoke;
+    margin-top: 5%;
+    border: solid 1px black;
+    border-radius: 0 0 20px 20px;
+    background: -webkit-linear-gradient(0, black ,rgb(0,84,0) 80%);
+    background: linear-gradient(0, black,rgb(0,84,0) 80%);
+    font-size: larger;
+}
+
+h2,h3, #nombre{
+    background:  linear-gradient(0,  rgb(0, 175, 0) 20%, #4ac959 90%);
+    text-align: center;
+    padding: 8px;
+    width: 35%;
+    margin-right: 6px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 2px black solid;
+    border: none;
+    float: left;
+    box-shadow: 2px 2px 5px black;
+}
+
+#botonlisto{
+    background: linear-gradient(0,  rgb(0, 134, 175) 20%, rgb(15, 163, 201)); 
+    width: 12.3%;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
+#botonborrar{
+    background:  linear-gradient(0,  rgb(184, 0, 0) 20%, rgb(187, 1, 1) 90%);
+    border-radius: 15px;
+    padding-top: 10px;
+    width: 12.3%;
+}
+
+#nombre{
+    width: 30%;
+    background-color: white;
+    background: white;
+}
+
+#ultimonombre{
+    margin-left: 11%;
+    height: 17px;
+    box-shadow: 1px 1px black;
+}
+
+#undo{
+    float: right;
+}
+
+
+p{
+    padding: 10px;
+}
+
+.display{
+    border: solid black 2px;
+    width: 100%;
+    background-color: rgba(255, 255, 240, 0.356);
+    border-radius: 5px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+h4{
+    float: left;
+    display: contents;
+    text-align: center;
+}
+
+h6{
+    display: inline;
+}
+
+#total{
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    background-color: rgb(200,200,200,0.5);
+    padding: 0 2px;
+    border-radius: 3px;
+}
+
+#costo, #numquinielas{
+    color: rgba(11, 15, 0, 0.753);
+    background-color: rgb(200,200,200,0.5);
+    display:inline;
+    padding: 0 2px;
+    border-radius: 3px;
+}
